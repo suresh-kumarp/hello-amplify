@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "auth": {
+      "helloamplify8ac86c11": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

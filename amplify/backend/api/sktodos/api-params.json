@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "todoLamda",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "sktodos",
+    "apiName": "sktodos",
+    "functionArns": [
+        {
+            "lambdaFunction": "todoLamda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-helloamplify-dev-123015-authRole",
+        "unAuthRoleName": "amplify-helloamplify-dev-123015-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "todoLamda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
