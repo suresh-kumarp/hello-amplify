@@ -10,7 +10,7 @@ import aws_exports from "./aws-exports";
 
 import { API } from "aws-amplify";
 
-import axios from "axios";
+//import axios from "axios";
 
 // in this way you are only importing Auth and configuring it.
 Amplify.configure(aws_exports);
@@ -22,12 +22,12 @@ class App extends React.Component {
     API.get('sktodos', '/items', {});
   };
 
-  callSlsApi = () => {
-    axios
-      .get('https://wq5lde8uj2.execute-api.us-east-2.amazonaws.com/dev/todos')
-      .then(res => console.log(res))
-      .catch(err => console.log(err));
-  };
+  // callSlsApi = () => {
+  //   axios
+  //     .get('https://wq5lde8uj2.execute-api.us-east-2.amazonaws.com/dev/todos')
+  //     .then(res => console.log(res))
+  //     .catch(err => console.log(err));
+  // };
 
   render() {
     return (
@@ -36,8 +36,6 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>Hello, World!</p>
           <button onClick={this.callAmplifyApi}>Call Amplify Rest API</button>
-          <hr/> 
-          <button onClick={this.callSlsApi}>Call Serverless Endpoint</button>
         </header>
       </div>
     );

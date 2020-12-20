@@ -75,7 +75,7 @@
         "Layers": [],
         "Timeout": "25",
         "Code": {
-          "S3Bucket": "amplify-helloamplify-dev-123015-deployment",
+          "S3Bucket": "amplify-helloamplify-prod-163646-deployment",
           "S3Key": "amplify-builds/todoLamda-3930572f6f5967715442-build.zip"
         }
       }

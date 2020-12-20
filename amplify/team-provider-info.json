@@ -16,5 +16,26 @@
         "helloamplify8ac86c11": {}
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-helloamplify-prod-163646-authRole",
+      "UnauthRoleArn": "arn:aws:iam::785321780735:role/amplify-helloamplify-prod-163646-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::785321780735:role/amplify-helloamplify-prod-163646-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-helloamplify-prod-163646-deployment",
+      "UnauthRoleName": "amplify-helloamplify-prod-163646-unauthRole",
+      "StackName": "amplify-helloamplify-prod-163646",
+      "StackId": "arn:aws:cloudformation:us-east-2:785321780735:stack/amplify-helloamplify-prod-163646/779c6710-42b3-11eb-b975-069ab1824cbc",
+      "AmplifyAppId": "d3qdgesadwl5x9"
+    },
+    "categories": {
+      "auth": {
+        "helloamplify8ac86c11": {}
+      },
+      "function": {
+        "todoLamda": {}
+      }
+    }
   }
 }
